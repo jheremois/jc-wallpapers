@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #f7f7f7;
+}
+body{
+    background-color: #2B2B2B;
+}
+header{
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #323F4B;
+}
+header #menu{
+
+}
+.tag{
+    background-color: #327EBC;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #122749;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+}
+.sidenav a {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    width: 209px;
+    padding: 15px 8px 15px 32px;
+    text-decoration: none;
+    font-size: 14pt;
+    color: #d6e3f3c2;
+    display: block;
+    transition: 0.3s;
+    font-weight: 300;
+}
+.sidenav .username{
+    color: #D6E3F3;
+    font-weight: 600;
+}
+.sidenav .leave{
+    width: 250px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    height: 72%;
+}
+.sidenav .logout{
+    margin: 65px 8px 8px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: rgba(236, 236, 236, 0.685) 1px solid;
+}
+.sidenav a:hover {
+    color: #D6E3F3;
+}
+.sidenav .closebtn {
+    width: initial;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
