@@ -1,40 +1,101 @@
 <!DOCTYPE html>
-html(lang="en")
+<html lang="en">
     head
-        block head
-            meta(charset="UTF-8")
-            meta(name="viewport", content="width=device-width, initial-scale=1.0")
-            meta(name="viewport" content="width=device-width")
-            meta(http-equiv="X-UA-Compatible" content="IE=edge")
-            meta(name="theme-color" content="#2A5AA7")
-            meta(name="MobileOptimized", content="width")
-            meta(name="HandHeldFriendly", content="true")
-            link(rel="apple-touch-icon", href="images/favicon.ico")
-            link(rel="apple-touch-startup-image")
-            meta(name="description", content="Separate your work in smaller task and improve your work flow")
-            link(rel="shortcut icon", href="images/favicon.ico", type="image/x-icon")
-            link(rel="manifest", href="manifest.json")
-            link(rel="stylesheet", href="css/home.css")
-            script(src="script.js")
-            title j-wallpapers
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(name="viewport" content="width=device-width")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="theme-color" content="#2A5AA7")
+        meta(name="MobileOptimized", content="width")
+        meta(name="HandHeldFriendly", content="true")
+        link(rel="apple-touch-icon", href="images/logo-256.png")
+        link(rel="apple-touch-startup-image")
+        meta(name="description", content="Separate your work in smaller task and improve your work flow")
+        link(rel="shortcut icon", href="images/logo-256.png", type="image/x-icon")
+        link(rel="manifest", href="manifest.json")
+        link(rel="stylesheet", href="css/home.css")
+        script(src="script.js")
+        title j-wallpapers
     body
         #mySidenav(class="sidenav")
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            a(href="#" class='username') Jheremy
-            a(href="#") Create task
-            a(href="#") About
-            a(href="#" class='logout') Log out
+            a(href="/") Code
+            a(href="/") Desing
+            a(href="/") Art
+            a(href="/") Gaming
         header
             span(style="font-size:30px;cursor:pointer" onclick="openNav()")
-                svg(width="35" height="21" viewBox="0 0 35 21" fill="none")
+                svg(width="33" height="19" viewBox="0 0 35 21" fill="none")
                     path(d="M0 1H35" stroke="#D6E3F3" stroke-width="1.8")
                     path(d="M0 10.5H35" stroke="#D6E3F3" stroke-width="1.8")
                     path(d="M0 20H35" stroke="#D6E3F3" stroke-width="1.8")
-            svg(width="78" height="27" viewBox="0 0 78 27" fill="none" xmlns="http://www.w3.org/2000/svg")
-                path(d="M48.8618 1.19397L61.1974 23.694L76 1.19397" stroke="white" stroke-width="3")
-                rect(width="12.9481" height="6.23239" transform="matrix(0.546857 -0.837226 0.830497 0.557023 46.747 11.8405)" fill="#323F4B")
-                path(d="M30.1118 1.19397L42.4474 23.694L57.25 1.19397" stroke="white" stroke-width="3")
-                path(d="M13.3355 4.69397C16.5686 18.5197 14.1891 25.5447 1 23.694" stroke="white" stroke-width="3")
-                rect(width="13.8214" height="4.23686" transform="matrix(0.984409 -0.175892 0.171431 0.985196 5.4408 4.625)" fill="#323F4B")
-                path(d="M1.49341 6.19397L25.1776 2.19397" stroke="white" stroke-width="3")
+            a(href="/" alt="jrc-wallpapers")
+                svg(width="73" height="22" viewBox="0 0 78 27" fill="none" xmlns="http://www.w3.org/2000/svg")
+                    path(d="M48.8618 1.19397L61.1974 23.694L76 1.19397" stroke="white" stroke-width="3")
+                    rect(width="12.9481" height="6.23239" transform="matrix(0.546857 -0.837226 0.830497 0.557023 46.747 11.8405)" fill="#323F4B")
+                    path(d="M30.1118 1.19397L42.4474 23.694L57.25 1.19397" stroke="white" stroke-width="3")
+                    path(d="M13.3355 4.69397C16.5686 18.5197 14.1891 25.5447 1 23.694" stroke="white" stroke-width="3")
+                    rect(width="13.8214" height="4.23686" transform="matrix(0.984409 -0.175892 0.171431 0.985196 5.4408 4.625)" fill="#323F4B")
+                    path(d="M1.49341 6.19397L25.1776 2.19397" stroke="white" stroke-width="3")
+            nav
+                a(href="/") Code
+                a(href="/") Desing
+                a(href="/") Art
+                a(href="/") Gaming
+        main
+            .task
+                .in
+                    .head_task#adobe
+                        .downloader
+                            .buttons
+                                a(href=`/d/wallpaper\ \p\ \(2\).jpg`) Download
+                                a(href=`/d/wallpaper\ \(2\).jpg`) Download(Pc)
+                    .body_task Adobe apps
+                    .time
+                        .tag code
+                        .tag desing
+            .task
+                .in
+                    .head_task#adobe
+                        .downloader
+                            .buttons
+                                a(href=`/d/wallpaper\ \p\ \(2\).jpg`) Download
+                                a(href=`/d/wallpaper\ \(2\).jpg`) Download(Pc)
+                    .body_task Adobe apps
+                    .time
+                        .tag code
+                        .tag desing
+            .task
+                .in
+                    .head_task#codeline
+                        .downloader
+                            .buttons
+                                a(href=`/d/wallpaper\ \p\ \(1\).jpg`) Download
+                                a(href=`/d/wallpaper\ \(1\).jpg`) Download(Pc)
+                    .body_task Code lines
+                    .time
+                        .tag code
+                        .tag desing
+            .task
+                .in
+                    .head_task#codeline
+                        .downloader
+                            .buttons
+                                a(href=`/d/wallpaper\ \p\ \(1\).jpg`) Download
+                                a(href=`/d/wallpaper\ \(1\).jpg`) Download(Pc)
+                    .body_task Code lines
+                    .time
+                        .tag code
+                        .tag desing
+            .task
+                .in
+                    .head_task#adobe
+                        .downloader
+                            .buttons
+                                a(href=`/d/wallpaper\ \p\ \(2\).jpg`) Download
+                                a(href=`/d/wallpaper\ \(2\).jpg`) Download(Pc)
+                    .body_task Adobe apps
+                    .time
+                        .tag code
+                        .tag desing
     script(src="js/home.js")
