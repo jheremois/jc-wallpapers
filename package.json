@@ -4,8 +4,7 @@
   "description": "Download wallpapers for free! wallpaper for desingner, programer, hackers and more",
   "main": "index.js",
   "scripts": {
-    "start": "src/index.js",
-    "test": "nodemon src/index.js"
+    "start": "node src/index.js"
   },
   "author": "ig: @shuniata_jc, githun: @jheremois",
   "license": "ISC",
@@ -14,6 +13,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "node-env-file": "^0.1.8",
     "pug": "^3.0.0"
   }
 }
