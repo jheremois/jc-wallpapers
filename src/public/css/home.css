@@ -154,7 +154,7 @@ main{
     display: flex;
     justify-content: start;
     padding: 10px 14px;
-    font-size: 18pt;
+    font-size: 14pt;
     font-weight: 400;
 }
 .time{
@@ -168,13 +168,32 @@ main{
 /*
     wallpapers
 */
-#adobe{ background-image: url('../images/wallpapers/wallpaper\ \(1\).jpg');}
-#codeline{ background-image: url('../images/wallpapers/wallpaper\ \(2\).jpg');}
+#adobe{ background-image: url('../images/wallpapers/wallpaper\ \(2\)pc.jpg');}
+#codeline{ background-image: url('../images/wallpapers/wallpaper\ \(1\)pc.jpg');}
+#pc{ background-image: url('../images/wallpapers/wallpaper\ \(3\)pc.jpg');}
+#e404{ background-image: url('../images/wallpapers/wallpaper\ \(4\)pc.jpg');}
+#camello{ background-image: url('../images/wallpapers/wallpaper\ \(5\)pc.jpg');}
+#monta{ background-image: url('../images/wallpapers/wallpaper\ \(6\)pc.jpg');}
+#colo{ background-image: url('../images/wallpapers/wallpaper\ \(7\)pc.jpg');}
+#cuadra{ background-image: url('../images/wallpapers/wallpaper\ \(8\)pc.jpg');}
+#hoj{ background-image: url('../images/wallpapers/wallpaper\ \(9\)pc.jpg');}
+#razer{ background-image: url('../images/wallpapers/wallpaper\ \(10\)pc.jpg');}
+#halo{ background-image: url('../images/wallpapers/wallpaper\ \(11\)pc.jpg');}
+#ani{ background-image: url('../images/wallpapers/wallpaper\ \(12\)pc.jpg');}
 
 @media screen and (max-width: 768px){
     nav{ display: none;}
     header span{ display: flex;}
     main{ column-count: 2;}
-    #adobe{ background-image: url('../images/wallpapers/wallpaper\ \p\ \(1\).jpg');}
-    #codeline{ background-image: url('../images/wallpapers/wallpaper\ \p\ \(2\).jpg');}
+    #adobe{ background-image: url('../images/wallpapers/wallpaper\ \(2\).jpg');}
+    #codeline{ background-image: url('../images/wallpapers/wallpaper\ \(1\).jpg');}
+    #pc{ background-image: url('../images/wallpapers/wallpaper\ \(3\).jpg');}
+    #e404{ background-image: url('../images/wallpapers/wallpaper\ \(4\).jpg');}
+    #camello{ background-image: url('../images/wallpapers/wallpaper\ \(5\).jpg');}
+    #monta{ background-image: url('../images/wallpapers/wallpaper\ \(6\).jpg');}
+    #colo{ background-image: url('../images/wallpapers/wallpaper\ \(7\).jpg');}
+    #hoj{ background-image: url('../images/wallpapers/wallpaper\ \(9\).jpg');}
+    #razer{ background-image: url('../images/wallpapers/wallpaper\ \(10\).jpg');}
+    #halo{ background-image: url('../images/wallpapers/wallpaper\ \(11\).jpg');}
+    #ani{ background-image: url('../images/wallpapers/wallpaper\ \(12\).jpg');}
 }
