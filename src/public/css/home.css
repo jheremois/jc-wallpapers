@@ -8,7 +8,11 @@ body{
     background-color: #2B2B2B;
 }
 header{
-    padding: 10px;
+    transform: translateY(-25px);
+    width: 97%;
+    position: fixed;
+    padding: 10px 3%;
+    padding-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -91,11 +95,15 @@ nav a:hover{
     main
 */
 main{
-    margin: 1em;
+    padding: 50px 0px;
+    margin: 1.2em;
     column-count: 3;
     column-gap: 1em;
 }
 .task{
+    border: #131313 solid 1px;
+    border-right: solid  #131313 4px;
+    border-bottom: solid  #131313 4px;
     color: #102341;
     background-color: #2a5aa74d;
     transition-duration: 500ms;
@@ -164,6 +172,21 @@ main{
     font-size: 10pt;
     font-weight: 100;
     color: #c9c9c986;
+}
+footer{
+    background-color: #20202057;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    padding: 5px 10px;
+    margin: 25px 20px;
+    text-decoration: none;
+    border: solid 1px #D6E3F3;
+}
+footer .active{
+    background-color: #10234179;
 }
 /*
     wallpapers
