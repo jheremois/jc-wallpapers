@@ -19,6 +19,14 @@ const routes = require('./router')
 
 app.use('/', routes())
 
+app.use(function(req, res, next){
+    res.status(404)
+
+    res.render('404', { url: req.url })
+
+    return
+})
+
 const port = process.env.PORT || 3000
 
 app.listen(port)

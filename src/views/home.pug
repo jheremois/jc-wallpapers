@@ -19,10 +19,10 @@
     body
         #mySidenav(class="sidenav")
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            a(href="/") Code
-            a(href="/") Desing
-            a(href="/") Gaming
-            a(href="/") Art
+            a(href="/code") Code
+            a(href="/desing") Desing
+            a(href="/gaming") Gaming
+            a(href="/pics") Pics
         header
             span(style="font-size:30px;cursor:pointer" onclick="openNav()")
                 svg(width="33" height="19" viewBox="0 0 35 21" fill="none")
@@ -38,10 +38,10 @@
                     rect(width="13.8214" height="4.23686" transform="matrix(0.984409 -0.175892 0.171431 0.985196 5.4408 4.625)" fill="#323F4B")
                     path(d="M1.49341 6.19397L25.1776 2.19397" stroke="white" stroke-width="3")
             nav
-                a(href="/") Code
-                a(href="/") Desing
-                a(href="/") Gaming
-                a(href="/") Art
+                a(href="/code") Code
+                a(href="/desing") Desing
+                a(href="/gaming") Gaming
+                a(href="/pics") Pics
         main
             block wallpa
                 .task
@@ -87,6 +87,26 @@
                             .tag desing
                 .task
                     .in
+                        .head_task#razer
+                            .downloader
+                                .buttons
+                                    a(href=`/d/wallpaper\ \(10\).jpg`) Download
+                                    a(href=`/d/wallpaper\ \(10\)pc.jpg`) Download(Pc)
+                        .body_task razer
+                        .time
+                            .tag gaming
+                .task
+                    .in
+                        .head_task#halo
+                            .downloader
+                                .buttons
+                                    a(href=`/d/wallpaper\ \(11\).jpg`) Download
+                                    a(href=`/d/wallpaper\ \(11\)pc.jpg`) Download(Pc)
+                        .body_task halo
+                        .time
+                            .tag gaming
+                .task
+                    .in
                         .head_task#monta
                             .downloader
                                 .buttons
@@ -94,7 +114,7 @@
                                     a(href=`/d/wallpaper\ \(6\)pc.jpg`) Download(Pc)
                         .body_task nice view
                         .time
-                            .tag art
+                            .tag pics
                 .task
                     .in
                         .head_task#colo
@@ -105,28 +125,9 @@
                         .body_task colorful
                         .time
                             .tag desing
-                .task
-                    .in
-                        .head_task#cuadra
-                            .downloader
-                                .buttons
-                                    a(href=`/d/wallpaper\ \(8\).jpg`) Download
-                                    a(href=`/d/wallpaper\ \(8\)pc.jpg`) Download(Pc)
-                        .body_task Cubes
-                        .time
-                            .tag desing
-                .task
-                    .in
-                        .head_task#e404
-                            .downloader
-                                .buttons
-                                    a(href=`/d/wallpaper\ \(4\).jpg`) Download
-                                    a(href=`/d/wallpaper\ \(4\)pc.jpg`) Download(Pc)
-                        .body_task ups, 404!
-                        .time
-                            .tag code
-        footer
-            block active
-                a(href="#adobe").active 1
-                a(href="/2") 2
+        block footer
+            footer
+                block active
+                    a(href="/").active 1
+                    a(href="/2") 2
     script(src="js/home.js")
