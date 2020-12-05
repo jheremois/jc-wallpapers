@@ -15,14 +15,12 @@
         link(rel="manifest", href="manifest.json")
         link(rel="stylesheet", href="css/home.css")
         script(src="script.js")
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XRGR9F288D"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-XRGR9F288D');
-        </script>
+        script(async src="https://www.googletagmanager.com/gtag/js?id=G-XRGR9F288D")
+        script.
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XRGR9F288D');
         title j-wallpapers
     body
         #mySidenav(class="sidenav")
