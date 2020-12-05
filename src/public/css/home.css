@@ -203,6 +203,11 @@ footer .active{
 #razer{ background-image: url('../images/wallpapers/wallpaper\ \(10\)pc.jpg');}
 #halo{ background-image: url('../images/wallpapers/wallpaper\ \(11\)pc.jpg');}
 #ani{ background-image: url('../images/wallpapers/wallpaper\ \(12\)pc.jpg');}
+#street{ background-image: url('../images/wallpapers/wallpaper\ \(13\)pc.jpg');}
+#ice{ background-image: url('../images/wallpapers/wallpaper\ \(14\)pc.jpg');}
+#ship{ background-image: url('../images/wallpapers/wallpaper\ \(15\)pc.jpg');}
+#amog{ background-image: url('../images/wallpapers/wallpaper\ \(16\)pc.jpg');}
+#joker{ background-image: url('../images/wallpapers/wallpaper\ \(17\)pc.jpg');}
 
 @media screen and (max-width: 768px){
     nav{ display: none;}
@@ -219,4 +224,9 @@ footer .active{
     #razer{ background-image: url('../images/wallpapers/wallpaper\ \(10\).jpg');}
     #halo{ background-image: url('../images/wallpapers/wallpaper\ \(11\).jpg');}
     #ani{ background-image: url('../images/wallpapers/wallpaper\ \(12\).jpg');}
+    #street{ background-image: url('../images/wallpapers/wallpaper\ \(13\).jpg');}
+    #ice{ background-image: url('../images/wallpapers/wallpaper\ \(14\).jpg');}
+    #ship{ background-image: url('../images/wallpapers/wallpaper\ \(15\).jpg');}
+    #amog{ background-image: url('../images/wallpapers/wallpaper\ \(16\).jpg');}
+    #joker{ background-image: url('../images/wallpapers/wallpaper\ \(17\).jpg');}
 }
