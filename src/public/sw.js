@@ -1,12 +1,10 @@
 const CACHE_NAME = 'v1_cache_programador_fitness',
   urlsToCache = [
     './',
-    './css/soor.css',
-    './soor/soor.js',
-    './images/favicon.ico',
-    './images/favicon.png',
-    './views/soor.pug',
-    './fonts/sf.ttf'
+    './css/home.css',
+    './js/home.js',
+    './images/logo-196.png',
+    './views/home.pug',
   ]
 
 self.addEventListener('install', e => {
